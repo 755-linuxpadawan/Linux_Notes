@@ -1,0 +1,32 @@
+lancer l'editeur :
+
+vi 
+vim
+ou 
+vi nomduficher_a_modifier
+vim nomdufichier_a_modifier
+
+rentrer en mode insertion
+i : monde insertion
+o : mode insertion à la ligne suivante
+a : mode insertion dans un mot
+
+commande avec la touche [:]
+:w = ecrire les modifications
+:wq = ecrire les modifications et quitter l'editeur
+:wq! = ecrire les modifications et forcer l'editeur à quitter 
+:q  = quitter l'editeur quand on a fait aucunes modifications
+:q! = forcer à quitter l'editeur meme si il y'a eu des modifications. 
+Ils ne seront pas sauvegardés.
+
+Commandes hors mode interractif en appuya,t sur la touche [echap] oui cette touche sert à quelquechose
+
+maj +Y = copier une ligne
+dd = couper/supprimer une ligne
+p = coller une ligne copié precedement avec [maj +Y] ou coupé avec [dd]
+maj + v = Se mettre en mode visuel et selectionner 
+ 
+Outils supplementaires :
+faire un diff de textes :
+diff fichiertexte_01 fichiertexte_02
+vimdiff fichiertexte_01 fichiertexte_02
